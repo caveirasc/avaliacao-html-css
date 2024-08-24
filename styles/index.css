@@ -1,0 +1,18 @@
+body{
+    font-family: fantasy;
+    background-color: rgb(213, 243, 236);
+}
+.container{
+    text-align: center;
+}
+
+.container a {
+    background-color: crimson;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 50px;
+}
+.container a:hover{
+    background-color: blueviolet;
+}

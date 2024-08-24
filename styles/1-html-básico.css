@@ -1,0 +1,68 @@
+html, body {
+    margin: 0; 
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(213, 243, 236);
+}
+
+
+header {
+    background-color: rgb(0, 195, 202);
+    padding: 15px;
+    color: aliceblue;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+header h1 {
+    margin-top: 0;
+}
+
+.btn {
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    color: aliceblue;
+    background-color: cadetblue;
+    padding: 5px 20px;
+    border-radius: 50px;
+    text-transform: uppercase;
+}
+.btn:hover{
+    background-color: rgb(255, 0, 140);
+
+}
+
+.container {
+    padding: 16px;
+    background-color: firebrick;
+
+}
+
+section{
+    background-color: aliceblue;
+    padding: 5px, 16px, 16px, 16px;
+    border-radius: 5px;
+    margin: 16px 0;
+    box-shadow: 0 2px 4px rgba(0,0, 0, 0);
+}
+
+
+.last{
+margin-bottom: 50px;
+}
+
+h2{
+    border-bottom: 2px salmon;
+    padding-bottom: 8px;
+}
+
+footer{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: blueviolet;
+    padding: 5px;
+    text-align: center;
+    color: aquamarine;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
